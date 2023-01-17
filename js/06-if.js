@@ -317,3 +317,31 @@ if (temperatura >= nuoKadaSilta && !arLyja) {
 } else {
     console.log('Nesilta ir nelyja: reikia striukes');
 }
+
+console.log('---------------');
+
+// Homework - I - variables:
+
+if (16 > 5) {
+    console.log('pomidoras');
+} else {
+    console.log('bandykite dar karta...');
+}
+
+if (16 > 17) {
+    console.log('agurkas');
+} else {
+    console.log('bandyk dar karta...');
+}
+
+if (16 < 17) {
+    console.log('abrikosas');
+} else {
+    console.log('bandom dar karta...');
+}
+
+if (16 < 5) {
+    console.log('persikas');
+} else {
+    console.log('bandome dar karta...');
+}

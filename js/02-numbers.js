@@ -144,3 +144,41 @@ console.log(temperatura);
 
 temperatura %= 3;
 console.log(temperatura);
+
+console.log('---------------');
+
+// homework I (variables):
+
+const m = 13;
+console.log(m);
+
+const n = 9;
+console.log(n);
+
+const o = 8;
+console.log(o);
+
+console.log(m, n, o);
+
+const p = 2;
+
+const r = 3;
+
+const sumaH = m + n + o + p + r;
+console.log(sumaH);
+
+const skirtumasH = m - n - o - p - r;
+console.log(skirtumasH);
+
+const dalmuoH = m / n / o / p / r;
+console.log(dalmuoH);
+
+const sandaugaH = m * n * o * p * r;
+console.log(sandaugaH);
+
+const liekanaH = m % n + n % o + o % p + p % r;
+console.log(liekanaH);
+
+
+
+

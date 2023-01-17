@@ -49,26 +49,28 @@ const vegs = ['pomidoras', 'agurkas', 'svogunas', 'bulve'];
 
 // Reikia nupirkti: pomidoras, agurkas, svogunas, bulve.
 
-let sakinys = 'Reikia nupirkti: ';
+/*
+let sentence = 'Reikia nupirkti: ';
 let index = 0;
 
-sakinys += vegs[index];
+sentence += vegs[index];
 index += 1;
-sakinys += ', ';
+sentence += ', ';
 
-sakinys += vegs[index];
+sentence += vegs[index];
 index += 1;
-sakinys += ', ';
+sentence += ', ';
 
-sakinys += vegs[index];
+sentence += vegs[index];
 index += 1;
-sakinys += ', ';
+sentence += ', ';
 
-sakinys += vegs[index];
+sentence += vegs[index];
 index += 1;
-sakinys += '.';
+sentence += '.';
 
-console.log(sakinys);
+console.log(sentence);
+*/
 
 const sakinys2 = 'Reikia nupirkti: ' +vegs.join(', ')+ '.';
 console.log(sakinys2);
@@ -110,3 +112,73 @@ console.log(kelintas777);
 // const hi = 'Labas';
 // const h = ['l', 'a', 'b', 'a', 's'];
 
+console.log('--------------');
+
+// homework - I (variables):
+
+const hours = [1, 3, 5, 7, 9];
+console.log(hours);
+
+const list1 = [2, 5, 8, 10, 16];
+console.log(list1);
+
+const happy = [2, 4, 6, 8, 10];
+console.log(happy);
+
+const toys = ['horse', 'giraffe', 'doll', 'doll-house', 'car']
+console.log(toys);
+
+const vacation = ["sun", "swimming-pool", "beach", "sea", "sunshine"];
+console.log(vacation);
+
+const random = [`books`, `stories`, `movies`, `cinema`, `good emotions`];
+console.log(random);
+
+const favourite = `Her favourite toys are: ${toys.join(' ')}.`
+console.log(favourite);
+
+const iLove = 'I love vacation, because it is about ' +vacation.join(' ');
+console.log(iLove);
+
+const iLike = `I like ${random.join(' ')}`
+console.log(iLike);
+
+const countHours = hours[0] - hours[1] + hours[2] - hours[3] + hours[4];
+console.log(countHours);
+
+const countList1 = list1[0] - list1[1] + list1[2] - list1[3] + list1[4];
+console.log(countList1);
+
+const countHappy = happy[0] - happy[1] + happy[2] - happy[3] + happy[4];
+console.log(countHappy);
+
+const backwards1 = vacation[4] + ', ' + vacation[3] + ', ' + vacation[2] + ', ' + vacation[1] + ', ' + vacation[0] + '.'
+console.log(backwards1); 
+
+let sentence = 'Joined backwards: ';
+let index = 4;
+
+sentence += toys[index];
+index -= 1;
+sentence += ', ';
+
+sentence += toys[index];
+index -= 1;
+sentence += ', ';
+
+sentence += toys[index];
+index -= 1;
+sentence += ', ';
+
+sentence += toys[index];
+index -= 1;
+sentence += ', ';
+
+sentence += toys[index];
+index -= 1;
+sentence += '. ';
+
+console.log(sentence);
+
+const backwards3 = `Joined backwards 3: ` + random[4] + ', ' + random[3] + ', ' + random[2] + ', ' + random[1] + ', ' + random[0] + '.'
+console.log(backwards3); 

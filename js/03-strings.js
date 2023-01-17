@@ -80,3 +80,24 @@ console.log(sms);
 
 const sms2 = `Sveiki, mano vardas ${name}, man yra ${age} metai ir as esu is ${city}.`;
 console.log(sms2);
+
+console.log('----------');
+
+// homework - I (variables):
+
+const vardukas = 'Juonelis';
+console.log(vardukas);
+
+const pavardyte = "Juonaitis";
+console.log(pavardyte);
+
+const titulas = `puons`;
+
+const vardenisPavardenis = vardukas + ' ' + pavardyte;
+console.log(vardenisPavardenis);
+
+const sveiks = `Sveiks, as esu ${vardenisPavardenis}.`;
+console.log(sveiks);
+
+const tituluotas = `Sveiks, as esu ${titulas} ${vardenisPavardenis}.`
+console.log(tituluotas);
