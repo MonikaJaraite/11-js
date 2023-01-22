@@ -1,5 +1,14 @@
 console.clear ();
 
+/*
+function isNaN(x) {
+    if (''+ x === 'NaN') {
+        return true;
+    }
+    return false;
+}
+*/
+
 function rangeSum(from, to) {
     if (typeof from !== 'number') {
         return 'ERROR: pirmasis parametras turi buti skaicius.';
@@ -36,7 +45,27 @@ function rangeSum(from, to) {
     //     }
     // }
 
+/*
     let sum = 0;
+
+        for (let i=0; i<=4; i++) {
+            sum+= i;   - matematiskai sis kodas teisingas, bet kai kas negerai
+        }              - truksta dar vieno testo, ar from nera didesnis uz to
+    
+    return sum;
+}
+*/
+    let sum = 0;
+
+/*    if (from < to) {
+        for (let i = from; i <= to; i++) {
+            sum += i;
+        }
+    } else {
+        for (let i = to; i <= from; i++) {
+            sum += i;
+        }
+    } */
 
     if (from > to) {
         const x = from;
@@ -78,6 +107,7 @@ console.log(rangeSum(574, 815), '-->');
 
 console.log(rangeSum(0, 4), '-->', 10); */
 
+/*
 console.log(rangeSum(true, 4));
 console.log(rangeSum(4, false));
 console.log(rangeSum('dfsd', 4));
@@ -102,6 +132,32 @@ console.log(rangeSum(-Infinity, 8.88));
 console.log(rangeSum(0, NaN));
 console.log(rangeSum(NaN, 8));
 console.log(rangeSum(NaN, NaN));
+*/
+
+console.assert(rangeSum(true, 4));
+console.assert(rangeSum(4, false));
+console.assert(rangeSum('dfsd', 4));
+console.assert(rangeSum(4, 'ergg'));
+console.assert(rangeSum([], 4));
+console.assert(rangeSum(4, []));
+console.assert(rangeSum(null, 4));
+console.assert(rangeSum(4, null));
+console.assert(rangeSum(undefined, 4));
+console.assert(rangeSum(4, undefined));
+console.assert(rangeSum(4));
+console.assert(rangeSum());
+console.assert(rangeSum(0, 3.14));
+console.assert(rangeSum(3.14, 8));
+console.assert(rangeSum(3.14, 8.88));
+console.assert(rangeSum(0, Infinity));
+console.assert(rangeSum(Infinity, 8));
+console.assert(rangeSum(Infinity, 8.88));
+console.assert(rangeSum(0, -Infinity));
+console.assert(rangeSum(-Infinity, 8));
+console.assert(rangeSum(-Infinity, 8.88));
+console.assert(rangeSum(0, NaN));
+console.assert(rangeSum(NaN, 8));
+console.assert(rangeSum(NaN, NaN));
 
 console.log(rangeSum(0, 4), '-->', 10);
 console.log(rangeSum(0, 100), '-->', 5050);

@@ -25,6 +25,11 @@ console.log(`88 yra ${l2}`);
 
 console.log('-------------');
 
+const petras = [10, 2, 8, 4, 6];
+const maryte = [10, 9, 8, 7];
+const jonas = [2, 3, 4, 5];
+const ona = [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5];
+
 function average(marks) {
     let sum = 0;
 
@@ -35,14 +40,17 @@ function average(marks) {
     return sum / marks.length;
 }
 
-const petras = [10, 2, 8, 4, 6];
-const maryte = [10, 9, 8, 7];
-const jonas = [2, 3, 4, 5];
-const ona = [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5];
+console.log('Petras:', average(petras));
+console.log('Maryte:', average(maryte));
+console.log('Jonas:', average(jonas));
+console.log('Ona:', average(ona));
 
-const petroVidurkis = average(petras);
+console.log('-------------');
 
-console.log('Petras:', petroVidurkis, petras);
+const petroVidurkis = average(petras);  // galima pirma susiskaiciuoti ir priskirti kintamajam,
+// bet ar jis tau reikalingas; jeigu ne - galima spausdinti iskart kaip maryte:
+
+console.log('PetrasX:', petroVidurkis, petras);
 console.log('Maryte:', average(maryte), maryte);
 console.log('Jonas:', average(jonas), jonas);
 console.log('Ona:', average(ona), ona);
@@ -50,6 +58,8 @@ console.log('Ona:', average(ona), ona);
 console.log('----------');
 
 function skirtumas(a, b) {
+    // jeigu a yra ne skaicius
+        // grazinti: klaida...
     if (typeof a !== 'number') {
         return 'Klaida: pirmas parametras turi buti skaicius.';
     }
@@ -65,7 +75,8 @@ console.log(skirtumas(7, 5));
 console.log(skirtumas(17, 5));
 console.log(skirtumas(-17, 5));
 
-console.log(skirtumas(true, 5)); // klaida...
+// Testai:
+console.log(skirtumas(true, 5)); // true traktuoja kaip vieneta, ir gauna -4, bet reikia, kad butu klaida...
 console.log(skirtumas(8, false)); // klaida...
 
 console.log(skirtumas('labas', 5)); // klaida...

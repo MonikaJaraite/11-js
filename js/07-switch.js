@@ -70,7 +70,7 @@ if (day === 1 || day === 2 || day === 3 || day === 4 || day === 5) {
 
 console.log('----------');
 
-const gamybosEtapas = 1;
+const gamybosEtapas = 4;
 /*
 switch (gamybosEtapas) {
     case 1:

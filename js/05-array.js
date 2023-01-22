@@ -110,3 +110,5 @@ console.log(kelintas777);
 // const hi = 'Labas';
 // const h = ['l', 'a', 'b', 'a', 's'];
 
+// const reversed = array.reverse ();
+// ATSARGIAI: reversed pakeicia originalu eiliskuma neatstatomai!

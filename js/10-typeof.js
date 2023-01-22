@@ -23,8 +23,9 @@ console.log(typeof ['dfsd']);
 console.log(typeof [true]);
 
 console.log(typeof undefined);
-console.log(typeof null);
-console.log(typeof {});
+console.log(typeof typeof 5); // nes vietoje antro typeof 5 - jis suskaiciuoja 'number'
+console.log(typeof null);  // tai irgi object'as
+console.log(typeof {});  
 
 console.log('----------');
 console.log(Array.isArray(5));

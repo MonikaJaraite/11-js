@@ -162,12 +162,6 @@ if (7 === '7') {
     console.log('nelygu');
 }
 
-if (7 === '7') {
-    console.log('grieztai lygu');
-} else {
-    console.log('nelygu');
-}
-
 console.log('---------------');
 
 const diena =7;
