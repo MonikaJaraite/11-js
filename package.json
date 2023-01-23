@@ -4,6 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "biggestNum": "nodemon ./js/15-biggestNum.js",
+    "numSize": "nodemon ./js/14-numSize.js",
+    "beliekaninis": "nodemon ./js/13-beliekaninis.js",
+    "reverseString": "nodemon ./js/12-reverseString.js",
     "rangeSum": "nodemon ./js/11-rangeSum.js",
     "typeof": "nodemon ./js/10-typeof.js",
     "function": "nodemon ./js/09-function.js",
