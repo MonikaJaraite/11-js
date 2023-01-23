@@ -96,5 +96,142 @@ sentence += '. ';
 
 console.log(sentence);
 
-// KINTAMUJU PALYGINIMAS
+// KINTAMUJU PALYGINIMAS - PALYGINIMAS:
 
+if (m > n) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite dar kartą');
+}
+
+if (o < n) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite dar kartą');
+}
+
+if (p > r) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite dar kartą');
+}
+
+if (m === n) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite dar kartą');
+}
+
+if (m !== n) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite dar kartą');
+}
+
+if (o >= p) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite dar kartą');
+}
+
+if (p <= r) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite dar kartą');
+}
+
+// TEKSTO TIPO KINTAMUJU ILGIAI:
+
+console.log(toys.length);
+
+console.log(vacation.length);
+
+console.log(random.length);
+
+// TEKSTO TIPO KINTAMUJU ILGIU PALYGINIMAS:
+
+if (toys.length > vacation.length) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite dar kartą');
+}
+
+if (random.length < vacation.length) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite dar kartą');
+}
+
+if (random.length === toys.length) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite dar kartą');
+}
+
+if (vacation.length !== toys.length) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite dar kartą');
+}
+
+if (vacation.length >= random.length) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite dar kartą');
+}
+
+if (toys.length <= random.length) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite dar kartą');
+}
+
+// SARASO TIPO KINTAMUJU ILGIAI:
+
+const usual = [2, 16, 351, 8, 14, 21, 98, 17, 461]
+console.log(usual.length);
+
+console.log(happy.length);
+
+const variety = [8, 19, 23, 46, 64, 29, 322, 10018, 51, 462];
+console.log(variety.length);
+
+// SARASO TIPO KINTAMUJU ILGIU PALYGINIMAS:
+
+if (usual.length > happy.length) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite dar kartą');
+}
+
+if (happy.length < variety.length) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite dar kartą');
+}
+
+if (happy.length === hours.length) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite dar kartą');
+}
+
+if (usual.length !== variety.length) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite dar kartą');
+}
+
+if (happy.length >= list1.length) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite dar kartą');
+}
+
+if (toys.variety <= list1.length) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite dar kartą');
+}
+
+// CIKLO FOR PANAUDOJIMAS
