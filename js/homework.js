@@ -235,3 +235,47 @@ if (toys.variety <= list1.length) {
 }
 
 // CIKLO FOR PANAUDOJIMAS
+
+function rangeSum(from, to) {
+
+    let sum = 0;
+
+    for (let i=from; i<=to; i++) {
+        sum+= i;
+    }
+    
+    return sum;
+}
+
+console.log(rangeSum(0, 0));
+console.log(rangeSum(0, 4));
+console.log(rangeSum(0, 100));
+console.log(rangeSum(574, 815));
+console.log(rangeSum(-50, 50));
+console.log(rangeSum(-70, 30));
+
+console.log('---------------');
+
+function reverseString(str) {
+    
+    let ats = '';
+
+    for (let i = 0; i < str.length; i++) {
+        ats = str[i] + ats;
+    }
+
+    return ats;
+}
+
+console.log(reverseString('sunaitelis'), '-->', 'siletianus');
+console.log(reverseString('dukruzele'), '-->', 'elezurkud');
+console.log(reverseString('nestrapuik'), '-->', 'kiupartsen');
+
+console.log('---------------');
+
+
+
+
+
+
+

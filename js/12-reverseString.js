@@ -2,10 +2,10 @@ console.clear();
 
 function reverseString(str) {
     if (typeof str !== 'string') {
-        return 'ERROR: reikalingas tesktas';
+        return 'ERROR: reikalingas tekstas';
     }
     if (str === '') {
-        return 'ERROR: reikalingas ne tuscias tesktas';
+        return 'ERROR: reikalingas ne tuscias tekstas';
     }
 
     let ats = '';

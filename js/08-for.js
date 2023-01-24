@@ -158,3 +158,7 @@ for (let i = 0; i < students.length; i++) {
     const hi = `Sveiki, mano vardas yra ${name}!`;
     console.log(hi);
 }
+
+console.log('--------------------------')
+
+

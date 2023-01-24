@@ -4,6 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "34": "nodemon ./js/34-codewars.js",
+    "33": "nodemon ./js/33-codewars.js",
+    "new-hw": "nodemon ./js/new-hw.js",
     "biggestNum": "nodemon ./js/15-biggestNum.js",
     "numSize": "nodemon ./js/14-numSize.js",
     "beliekaninis": "nodemon ./js/13-beliekaninis.js",
