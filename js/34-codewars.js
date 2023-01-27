@@ -31,3 +31,31 @@ console.log(solution('abc'), '-->', 'cba');
 console.log(solution('labas'), '-->', 'sabal');
 console.log(solution('alus'), '-->', 'sula');
 console.log(solution('x'), '-->', 'x');
+
+console.log('------------');
+
+function opposite(number) {
+  if (number !== 0 ) {
+    return number * -1;
+  }
+    return 0;
+}
+
+console.log(opposite(1), -1);
+console.log(opposite(0), 0);
+console.log(opposite(4.25), -4.25);
+
+console.log('------------');
+
+function getCount(str) {
+  let sum = 0;
+  for (let i = 0; i < str.length; i++) {
+    if (str[i] === 'a'); 
+      sum ++;
+    }  
+    return sum
+  } 
+
+  console.log(getCount("abracadabra"), 5) ;
+
+  // || str[i] === 'e' || str[i] === 'i' || str[i] === 'o' || str[i] === 'u'
