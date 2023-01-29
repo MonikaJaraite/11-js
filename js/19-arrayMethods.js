@@ -86,3 +86,11 @@ const namesAbbr = names.map(abbr);
 
 console.log(names);
 console.log(namesAbbr);
+
+// Codewars:
+
+// function repeatStr (n, s) {
+//     return n * "s";
+//   }
+
+// console.log(repeatStr(3, "*"), "***");

@@ -58,3 +58,32 @@ console.log(biggestNum([-1, false, -1]), '-->', -1);
 console.log(biggestNum([false, -1, -1]), '-->', -1);
 
 console.log(biggestNum([false, -Infinity, Infinity, true, null, [], undefined, 'dfasd', '']));
+
+// Codewars:
+
+function SmallestIntegerFinder(list) {
+    
+    let smallest = Infinity;
+
+    for (let i = 0; i < list.length; i++) {
+        const num = list[i];
+        if (num < smallest) {
+            smallest = num;
+        }
+    }
+
+    return smallest;
+}
+
+console.log(SmallestIntegerFinder([78,56,232,12,8]));
+console.log(SmallestIntegerFinder([78,56,232,12,18]));
+console.log(SmallestIntegerFinder([78,56,232,412,228]));
+console.log(SmallestIntegerFinder([78,56,232,12,0]));
+console.log(SmallestIntegerFinder([1,56,232,12,8]));
+
+/*
+class SmallestIntegerFinder {
+  findSmallestInt(args) {
+    
+  }
+}*/

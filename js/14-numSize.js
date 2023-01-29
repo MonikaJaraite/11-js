@@ -50,3 +50,24 @@ console.log(numSize(-3.14), '-->', 3);
 // console.log(numSize(-100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000), '-->', 105);
 // console.log(numSize(0.0000000000000000000000001), '-->', 26);
 // console.log(numSize(1000000000000000000000.0000000000000000000000001), '-->', 26);
+
+
+// Codewars:
+
+function numberToString(num) {
+    return '' + num;
+  }
+
+  console.log(numberToString(67), '67');
+
+  console.log ('------------');
+
+// NEVEIKIA:
+
+  function boolToWord(btw) {
+    if (0 === 0) {
+        console.log('Yes');
+      } else {
+        console.log('No');
+      } return btw
+    }

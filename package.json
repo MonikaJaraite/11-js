@@ -6,7 +6,9 @@
   "scripts": {
     "34": "nodemon ./js/34-codewars.js",
     "33": "nodemon ./js/33-codewars.js",
-    "new-hw": "nodemon ./js/new-hw.js",
+    "daznis": "nodemon ./js/23-daznis.js",
+    "ternary": "nodemon ./js/22-ternary.js",
+    "ciklai": "nodemon ./js/21-ciklai.js",
     "arrow": "nodemon ./js/20-arrow.js",
     "arrayMethods": "nodemon ./js/19-arrayMethods.js",
     "stringMethods": "nodemon ./js/18-stringMethods.js",
@@ -28,6 +30,7 @@
     "numbers": "nodemon ./js/02-numbers.js",
     "console": "nodemon ./js/01-console.js",
     "homework": "nodemon ./js/homework.js",
+    "new-hw": "nodemon ./js/new-hw.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
