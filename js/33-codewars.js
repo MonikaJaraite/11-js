@@ -153,3 +153,62 @@ function hero(bullets, dragons){
   console.log(hero(100, 40), true);
   console.log(hero(1500, 751), false);
   console.log(hero(0, 1), false);
+
+  console.log('------------');
+// CODEWARS   ---- KAZKAS NETEISINGAI:
+// https://www.codewars.com/kata/5861d28f124b35723e00005e/train/javascript
+
+const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
+  if (distanceToPump >= mpg * fuelLeft) {
+    return true }
+    else {
+    return false
+  }
+}
+
+console.log(zeroFuel(50, 25, 2), true);
+console.log(zeroFuel(100, 50, 1), false);
+
+console.log('--------')
+// CODEWARS:
+// https://www.codewars.com/kata/55225023e1be1ec8bc000390/train/javascript
+
+function greet(name){
+  if(name === "Johnny") {
+    return "Hello, my love!"; }
+    else {return "Hello, " + name + "!";} 
+}
+
+console.log(greet("Jim"), "Hello, Jim!");
+console.log(greet("Jane"), "Hello, Jane!");
+console.log(greet("Simon"), "Hello, Simon!");
+console.log(greet("Johnny"), "Hello, my love!")
+
+// CODEWARS:
+// https://www.codewars.com/kata/57089707fe2d01529f00024a/train/javascript
+
+/*
+function checkAlive (health) {
+  if () {
+    health < 0
+    return false
+  } else () {
+    return true
+  }
+}
+*/
+
+function checkAlive (health) {
+  if (health <= 0) {    
+    return false
+  } else {
+    return true
+  }
+}
+
+console.log(checkAlive(5), true);
+console.log(checkAlive(0), false);
+
+// CODEWARS:
+// https://www.codewars.com/kata/57356c55867b9b7a60000bd7/train/javascript
+
