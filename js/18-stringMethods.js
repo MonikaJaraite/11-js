@@ -10,8 +10,8 @@ console.log(abc.charCodeAt(0));
 console.log('a', 'A', 'a' > 'A');
 console.log('a'.charCodeAt(0), 'A'.charCodeAt(0));
 
-console.log(abc.indexOf('F'));
-console.log(abc.indexOf('defg'));
+console.log(abc.indexOf('F'));      // pozicija -1, nes tokios pozicijos tekste nera
+console.log(abc.indexOf('defg'));   // pozicija 3, nes d raide prasideda pozicijoje 3
 
 console.log('a'.repeat(5));
 console.log('abc'.repeat(5));

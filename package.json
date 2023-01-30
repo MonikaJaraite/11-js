@@ -6,6 +6,8 @@
   "scripts": {
     "34": "nodemon ./js/34-codewars.js",
     "33": "nodemon ./js/33-codewars.js",
+    "classExtend": "nodemon ./js/25-classExtend.js",
+    "class": "nodemon ./js/24-class.js",
     "daznis": "nodemon ./js/23-daznis.js",
     "ternary": "nodemon ./js/22-ternary.js",
     "ciklai": "nodemon ./js/21-ciklai.js",
