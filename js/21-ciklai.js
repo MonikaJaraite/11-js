@@ -111,9 +111,6 @@ const luckyNumbers = [666, 6, 13, 9, 999, 4];
 luckyNumbers.sort((a, b) => a > b ? 1 : a === b ? 0 : -1);
 console.log(luckyNumbers);
 
-luckyNumbers.sort((a, b) => a < b ? 1 : a === b ? 0 : -1);
-console.log(luckyNumbers);
-
 luckyNumbers.sort((a, b) => {
     if (a > b) {
         return 1;
@@ -144,11 +141,12 @@ console.log('REDUCE:', reduceMultiply);
 const reduceDiv = nums.reduce((sum, mark) => sum / mark);
 console.log('REDUCE:', reduceDiv);
 
-const reduceSum2 = nums.reduce((sum, mark) => sum + mark, 0);
+// Atsakymas = 1010:
+const reduceSum2 = nums.reduce((sum, mark) => sum + mark, 1000);
 console.log('REDUCE:', reduceSum2);
 
 // 1000 - 1 - 2 - 3 - 4 = 990
-const reduceMinus2 = nums.reduce((sum, mark) => sum - mark, 0);
+const reduceMinus2 = nums.reduce((sum, mark) => sum - mark, 1000);
 console.log('REDUCE:', reduceMinus2);
 
 const reduceMulti2 = nums.reduce((sum, mark) => sum * mark, 1);
